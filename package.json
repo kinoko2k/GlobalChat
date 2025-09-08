@@ -1,0 +1,33 @@
+{
+  "name": "globalchat",
+  "version": "1.2.0",
+  "description": "GlobalChatBot",
+  "homepage": "https://github.com/kinoko2k/GlobalChat",
+  "bugs": {
+    "url": "https://github.com/kinoko2k/GlobalChat/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kinoko2k/GlobalChat.git"
+  },
+  "license": "MIT",
+  "author": "Kinoko_2K",
+  "type": "commonjs",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^2.2.0",
+    "@discordjs/voice": "^0.19.0",
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.11.0",
+    "canvas": "^3.2.0",
+    "chartjs-node-canvas": "^5.0.0",
+    "dayjs": "^1.11.13",
+    "discord.js": "^14.20.1",
+    "fs": "^0.0.1-security",
+    "mysql2": "^3.14.1",
+    "undici": "^7.14.0"
+  }
+}
