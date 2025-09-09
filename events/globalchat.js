@@ -57,7 +57,7 @@ module.exports = {
                 })
                 .setColor(0x00AE86)
                 .setFooter({
-                    text: `${message.guild.name}`,
+                    text: `KGlobalChat - ${message.guild.name}`,
                     iconURL: message.guild.iconURL({ dynamic: true })
                 })
                 .setTimestamp();
